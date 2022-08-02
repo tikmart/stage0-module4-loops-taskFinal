@@ -15,9 +15,9 @@ public class Pyramid {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
-            for (int j = 1; j <=cathetusLength- i ; j++) {
-                System.out.print(" ");
-            }
+//            for (int j = 1; j <=cathetusLength- i ; j++) {
+//                System.out.print();
+//            }
 
 
             System.out.println();
@@ -27,6 +27,7 @@ public class Pyramid {
     }
 
     public static void main(String[] args) {
+        printPyramid(9);
         printPyramid(6);
         printPyramid(0);
     }
